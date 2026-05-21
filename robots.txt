@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Explicitly defining the sitemap location for search engines
+Sitemap: https://alphataxlink.com.au/sitemap.xml
+
+# Optional: You can block specific bad bots here if they become a problem
+# User-agent: BadBot
+# Disallow: /
