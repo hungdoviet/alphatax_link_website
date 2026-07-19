@@ -1638,3 +1638,26 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .btn { justify-content: center; }
   .hero__stats { flex-wrap: wrap; }
 }
+
+/* ===================================
+   FAQ Accordion Styling
+   =================================== */
+.faq-item {
+  transition: box-shadow 250ms ease, border-color 250ms ease, background-color 250ms ease;
+}
+.faq-item:hover {
+  border-color: var(--navy-400) !important;
+  box-shadow: var(--shadow-md) !important;
+  background-color: var(--navy-50) !important;
+}
+.faq-item[open] {
+  border-color: var(--navy-500) !important;
+  box-shadow: var(--shadow-md) !important;
+  background-color: var(--white) !important;
+}
+.faq-item[open] .faq-icon {
+  transform: rotate(45deg);
+}
+.faq-question::-webkit-details-marker {
+  display: none;
+}
