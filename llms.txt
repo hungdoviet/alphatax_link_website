@@ -1,0 +1,42 @@
+# Alpha Taxlink
+
+> Alpha Taxlink is a professional accounting and tax advisory firm based in Footscray, Melbourne, VIC. We provide comprehensive tax return, BAS lodgement, business advisory, and SMSF accounting services to individuals, small businesses, and migrant investors in English and Vietnamese.
+
+## Core Services
+
+- [Tax Return Services](https://alphataxlink.com.au/tax-returns/): Individual, sole trader, company, partnership, and trust tax returns.
+- [BAS & GST Lodgement](https://alphataxlink.com.au/bas-lodgement/): Business Activity Statement preparation, GST reconciliation, PAYG withholding, and ATO compliance.
+- [Business Advisory & Structuring](https://alphataxlink.com.au/business-advisory/): Business entity setup (Pty Ltd, Trust, Sole Trader), tax planning, cash flow forecasting, and growth strategy.
+- [Bilingual Accounting Services (Tiếng Việt)](https://alphataxlink.com.au/index-vi/): Dedicated accounting, tax, and business advisory services tailored for Vietnamese-speaking business owners and investors in Australia.
+
+## Company Details
+
+- **Legal Name**: Alpha Taxlink
+- **Qualifications**: Registered Tax Agent, CPA Qualified Accountants
+- **Address**: 105/29A Leeds Street, Footscray VIC 3011, Australia
+- **Phone**: (03) 9689 3908
+- **Website**: https://alphataxlink.com.au/
+- **Languages**: English, Vietnamese (Tiếng Việt)
+- **Opening Hours**: Monday – Friday: 9:00 AM – 5:30 PM AEST
+- **Service Area**: Footscray, Maribyrnong, Melbourne Metropolitan Area, Victoria, Australia
+
+## Key Information
+
+- **Individual Tax Returns**: Maximize tax deductions, lodging income from wages, dividends, rental properties, and capital gains.
+- **Small Business Accounting**: End-to-end accounting support, bookkeeping setup, cloud accounting integration (Xero, MYOB, QuickBooks).
+- **ATO Compliance**: Assistance with ATO audits, payment plans, penalty remissions, and overdue lodgements.
+- **Bilingual Advantage**: Fluent in Vietnamese tax context, assisting new migrants and established businesses navigate Australian tax laws seamlessly.
+
+## Site Structure
+
+- [Home (English)](https://alphataxlink.com.au/)
+- [Trang Chủ (Vietnamese)](https://alphataxlink.com.au/index-vi/)
+- [About Us (English)](https://alphataxlink.com.au/about/)
+- [Về Chúng Tôi (Vietnamese)](https://alphataxlink.com.au/about-vi/)
+- [Tax Returns](https://alphataxlink.com.au/tax-returns/)
+- [BAS & GST Lodgement](https://alphataxlink.com.au/bas-lodgement/)
+- [Business Advisory](https://alphataxlink.com.au/business-advisory/)
+- [Career (English)](https://alphataxlink.com.au/career/)
+- [Tuyển Dụng (Vietnamese)](https://alphataxlink.com.au/career-vi/)
+- [Contact Us (English)](https://alphataxlink.com.au/contact/)
+- [Liên Hệ (Vietnamese)](https://alphataxlink.com.au/contact-vi/)
