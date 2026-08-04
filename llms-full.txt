@@ -1,0 +1,128 @@
+# Alpha Taxlink - Full Technical Documentation & FAQ Repository
+
+Alpha Taxlink is a professional accounting and tax advisory firm based in Footscray, Melbourne, VIC. This document serves as a comprehensive reference of our service details, qualifications, procedures, regulatory context, and website-wide FAQs for AI search agents and LLMs.
+
+---
+
+## 1. Company Profile & Credentials
+
+- **Business Name**: Alpha Taxlink
+- **Corporate Entity**: Alpha Taxlink Pty Ltd
+- **Professional Accreditations**:
+  - Registered Tax Agent (Tax Practitioners Board - TPB)
+  - Certified Practising Accountant (CPA) Australia member
+  - Registered BAS Agent
+- **Key Leadership**: Led by Tien Nguyen (FCPA, Registered Tax Agent), offering over two decades of professional accounting experience.
+- **Physical Office Address**: Suite 105, 29A Leeds Street, Footscray VIC 3011, Australia.
+- **Bilingual Service Capability**: All services (consultation, correspondence, planning, and documentation support) are offered fluently in both English and Vietnamese (Tiếng Việt) to support local business owners, migrant investors, and multinational structures.
+
+---
+
+## 2. Deep-Dive Service Details
+
+### A. Individual & Business Taxation Services
+We handle compliance and planning for all entity types under Australian tax law:
+- **Individual Tax Returns**: Salary/wage income, multi-source income, investment properties (negative gearing), capital gains tax (CGT) events (shares, crypto, property), and foreign income.
+- **Sole Trader & Partnership Tax Returns**: Sole trader business schedules, partnership distributions, personal services income (PSI) rules, and primary production tax concessions.
+- **Company Tax Returns**: Reconciling financial statements (P&L and Balance Sheet), calculating corporate taxable income, managing franking accounts, and advising on Division 7A loan agreements.
+- **Trust Tax Returns**: Discretionary (family) trusts, unit trusts, hybrid trusts, trust distributions, and resolution templates.
+- **Self-Managed Super Funds (SMSF) Tax Returns**: Preparing SMSF annual returns, managing member accounts, coordinating external independent audits, and validating compliance with SIS Act rules.
+
+### B. Accounting, GST & BAS Lodgements
+Ensuring accurate financial reporting and strict compliance with the Australian Taxation Office (ATO):
+- **Business Activity Statements (BAS)**: GST calculation, GST reconciliation, PAYG withholding, and PAYG instalments.
+- **Instalment Activity Statements (IAS)**: Monthly or quarterly reporting of PAYG tax instalments and PAYG withholding.
+- **Single Touch Payroll (STP)**: STP Phase 2 setup, configuration of payroll software (Xero, MYOB, QuickBooks), processing STP pay runs, and annual payroll finalisation declarations.
+- **Superannuation Guarantee (SG)**: Calculation of quarterly employee superannuation, clearing house setup, and advising on Super Guarantee Charge (SGC) statements for late payments.
+
+### C. Business Advisory & Corporate Structuring
+Guidance for starting, growing, and restructuring businesses in Australia:
+- **Entity Setup**: Incorporation of Proprietary Limited (Pty Ltd) companies, registering discretionary and unit trusts, partnership agreements, and sole trader setups.
+- **Regulatory Registrations**: Australian Business Number (ABN), Tax File Number (TFN), GST, Pay As You Go (PAYG) Withholding, and Business Name registrations with ASIC.
+- **Tax Planning & Strategy**: Pre-June 30 reviews, tax liability projections, asset write-off optimisation (including temporary full expensing rules), and corporate tax rate structuring.
+- **Specialist Advisory**: Industry-specific accounting systems for hospitality, primary production, retail, and construction sectors; business valuation support; Section 52 statement preparation for business sales.
+
+---
+
+## 3. Comprehensive FAQ Repository
+
+Below is a consolidated database of all frequently asked questions across the Alpha Taxlink website.
+
+### General & Business-wide FAQs
+
+#### Q1: What documents do I need to prepare for my tax return?
+**A:** You will need:
+- Income statements (PAYG payment summaries or STP income statements via myGov)
+- Receipts or logbooks for work-related expenses
+- Bank statements showing interest earned
+- Private health insurance statements
+- Documentation for investment income, share portfolios, cryptocurrency trades, or capital gains events
+- Rental property income and expense summaries
+
+#### Q2: How can Alpha Taxlink help my small business with ATO compliance?
+**A:** We manage the end-to-end tax compliance cycle. This includes setting up your cloud accounting software, preparing and lodging monthly/quarterly Business Activity Statements (BAS), managing STP payroll compliance, calculating quarterly superannuation, and preparing annual financial statements and tax returns.
+
+#### Q3: Do you provide bilingual accounting services?
+**A:** Yes, our team is fully bilingual in English and Vietnamese. We regularly assist Vietnamese-speaking entrepreneurs, family businesses, and property investors in navigating Australian business tax rules.
+
+#### Q4: What is the process for setting up a new business structure in Australia?
+**A:** We start with a consultation to determine if a Sole Trader, Partnership, Company, or Trust structure is best for your goals and risk profile. We then handle all registrations, including ASIC company incorporation, ABN, business TFN, GST, and PAYG withholding setup.
+
+#### Q5: How often do I need to lodge my Business Activity Statement (BAS)?
+**A:** Most businesses are required by the ATO to lodge BAS quarterly. The standard quarterly due dates are:
+- Quarter 1 (July–September): 28 October
+- Quarter 2 (October–December): 28 February
+- Quarter 3 (January–March): 28 April
+- Quarter 4 (April–June): 28 July
+*Note: Lodging through Alpha Taxlink as your Registered BAS Agent provides up to an extra 4 weeks to lodge and pay.*
+
+---
+
+### Taxation Services FAQs
+
+#### Q6: When is the deadline to lodge an individual tax return in Australia?
+**A:** If you are lodging on your own, the tax return deadline is 31 October following the end of the financial year (30 June). If you are a client of a Registered Tax Agent like Alpha Taxlink, you are placed on our tax agent lodgement program, which extends your deadline up to 15 May of the following year.
+
+#### Q7: What deductions can I claim on my individual tax return?
+**A:** You can claim deductions for expenses directly related to earning your income, provided you spent the money yourself, weren't reimbursed, and have records (receipts/logs). Common deductions include vehicle and travel expenses, working-from-home expenses, tools and equipment, professional memberships, and self-education costs.
+
+#### Q8: How does Alpha Taxlink handle company and sole trader tax returns?
+**A:** We perform a complete review of your financial records. We reconcile profit and loss statements, identify all allowable business deductions (motor vehicle logs, home office claims, bad debts, depreciation), manage asset registers, and ensure all returns comply with relevant ATO legislation.
+
+#### Q9: Can you help me if I have overdue or late tax returns from previous years?
+**A:** Yes. We specialize in bringing multi-year outstanding tax returns up to date. We liaise directly with the ATO on your behalf to negotiate penalty remissions, minimize interest charges, and set up manageable payment arrangements if you have tax liabilities.
+
+---
+
+### BAS & GST Lodgement FAQs
+
+#### Q10: Why should I use a Registered BAS Agent to lodge my BAS?
+**A:** Beyond gaining an extra 4 weeks to lodge and pay, a Registered BAS Agent ensures that your GST calculations, GST-free sales classifications, and Input Tax Credits are recorded correctly. This prevents costly errors, audits, and ATO penalties.
+
+#### Q11: What is the difference between BAS and IAS?
+**A:** A Business Activity Statement (BAS) reports a variety of tax obligations including GST, PAYG withholding, and PAYG instalments. An Instalment Activity Statement (IAS) is used by businesses that are not registered for GST or by monthly PAYG withholders to report only tax instalments and withholding obligations.
+
+#### Q12: How does Alpha Taxlink handle Single Touch Payroll (STP) and Superannuation?
+**A:** We configure STP-compliant software (such as Xero, QuickBooks, or MYOB), process payrolls, issue payslips, lodge pay events to the ATO in real time, calculate Superannuation Guarantee amounts, and manage contributions through a compliant clearing house.
+
+#### Q13: What happens if I miss a BAS lodgement deadline?
+**A:** Missing a deadline can trigger an ATO Failure to Lodge (FTL) penalty. If you fall behind, we advise contacting us immediately. We can request lodgement extensions and draft penalty waiver applications for eligible businesses.
+
+---
+
+### Business Advisory FAQs
+
+#### Q14: Which business structure is best for my business in Australia?
+**A:** There is no single answer. A Sole Trader structure is inexpensive and easy to run but offers no personal liability protection. A Pty Ltd Company is a separate legal entity providing asset protection and a capped tax rate. A Trust structure offers flexibility for asset protection and distributing income to family members. We help you choose based on liability, control, setup costs, and tax optimization.
+
+#### Q15: How does proactive tax planning benefit small businesses?
+**A:** Proactive tax planning takes place in April/May before the financial year ends. It allows us to forecast your final profit, implement legal strategy (like writing off obsolete stock, making voluntary super contributions, or prepaying expenses), and optimize income distributions to reduce your overall tax rate.
+
+#### Q16: What is included in Alpha Taxlink's new business setup package?
+**A:** Our comprehensive package includes:
+- Company name and structure consultation
+- ASIC company registration and incorporation documents
+- Applications for ABN, TFN, GST, and PAYG
+- Trust deed establishment (if using a trust structure)
+- Registration of corporate keys and company register books
+- Initial cloud accounting system setup and training

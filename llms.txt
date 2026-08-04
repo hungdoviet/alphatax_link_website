@@ -2,6 +2,8 @@
 
 > Alpha Taxlink is a professional accounting and tax advisory firm based in Footscray, Melbourne, VIC. We provide comprehensive tax return, BAS lodgement, business advisory, and SMSF accounting services to individuals, small businesses, and migrant investors in English and Vietnamese.
 
+- [Full Specifications](https://alphataxlink.com.au/llms-full.txt): Deep-dive technical documentation and comprehensive FAQ repository.
+
 ## Core Services
 
 - [Tax Return Services](https://alphataxlink.com.au/tax-returns/): Individual, sole trader, company, partnership, and trust tax returns.
