@@ -40,8 +40,8 @@ Guidance for starting, growing, and restructuring businesses in Australia:
 - **Entity Setup**: Incorporation of Proprietary Limited (Pty Ltd) companies, registering discretionary and unit trusts, partnership agreements, and sole trader setups.
 - **Regulatory Registrations**: Australian Business Number (ABN), Tax File Number (TFN), GST, Pay As You Go (PAYG) Withholding, and Business Name registrations with ASIC.
 - **Tax Planning & Strategy**: Pre-June 30 reviews, tax liability projections, asset write-off optimisation (including temporary full expensing rules), and corporate tax rate structuring.
-### D. Vietnamese Tax Accounting & Bilingual CPA Advisory
-Specialized taxation and financial services for Vietnamese business owners and investors in Melbourne:
+### D. Vietnamese Tax Accounting & Bilingual CPA Advisory (Pillar Page: https://alphataxlink.com.au/vietnamese-tax-accountant-melbourne/)
+Specialized taxation and financial services for Vietnamese business owners, professionals, and investors in Melbourne:
 - **Bilingual Tax Consultations**: Conducted directly in Vietnamese (Tiếng Việt) and English by FCPA qualified accountants.
 - **Business Innovation & Investment Visas (Subclass 188 / 888)**: Financial audit preparations, compliance reporting, and asset verification aligned with Department of Home Affairs requirements.
 - **Multi-Year Overdue Tax Returns & ATO Debt Negotiation**: Liaising with the ATO to lodge past returns, request penalty/GIC remissions, and negotiate manageable installment plans.
@@ -137,8 +137,22 @@ Below is a consolidated database of all frequently asked questions across the Al
 **A:** Our comprehensive package includes:
 - Company name and structure consultation
 - ASIC company registration and incorporation documents
-- Applications for ABN, TFN, GST, and PAYG
-- Trust deed establishment (if using a trust structure)
-- Registration of corporate keys and company register books
 - Initial cloud accounting system setup and training
+
+---
+
+## 4. Canonical Site URL Index
+
+- Homepage (English): https://alphataxlink.com.au/
+- Vietnamese Tax Accountant Melbourne (Pillar Page): https://alphataxlink.com.au/vietnamese-tax-accountant-melbourne/
+- Trang Chủ (Vietnamese): https://alphataxlink.com.au/index-vi/
+- Tax Returns: https://alphataxlink.com.au/tax-returns/
+- BAS & GST Lodgement: https://alphataxlink.com.au/bas-lodgement/
+- Business Advisory: https://alphataxlink.com.au/business-advisory/
+- About Us (English): https://alphataxlink.com.au/about/
+- Về Chúng Tôi (Vietnamese): https://alphataxlink.com.au/about-vi/
+- Career (English): https://alphataxlink.com.au/career/
+- Tuyển Dụng (Vietnamese): https://alphataxlink.com.au/career-vi/
+- Contact Us (English): https://alphataxlink.com.au/contact/
+- Liên Hệ (Vietnamese): https://alphataxlink.com.au/contact-vi/
 
