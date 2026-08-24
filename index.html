@@ -4,15 +4,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Alpha Taxlink offers professional accounting, tax return and business advisory services for individuals and small businesses in Footscray and Melbourne, VIC." />
-  <meta name="keywords" content="tax accountant Melbourne, accounting firm Melbourne, tax returns, business accounting, GST, BAS, SMSF, Alpha Taxlink" />
-  <meta property="og:title" content="Accounting &amp; Tax Services Footscray Melbourne | Alpha Taxlink" />
-  <meta property="og:description" content="Alpha Taxlink offers professional accounting, tax return and business advisory services for individuals and small businesses in Footscray and Melbourne, VIC." />
+  <meta name="description" content="Alpha Taxlink is Melbourne's trusted Vietnamese tax accountant and CPA firm in Footscray. Expert bilingual individual &amp; business tax returns, BAS, and advisory." />
+  <meta name="keywords" content="Vietnamese tax accountant Melbourne, Vietnamese accountant Footscray, bilingual tax accountant Melbourne, kế toán người việt Melbourne, tax returns Melbourne, business accounting, BAS lodgement, SMSF, Alpha Taxlink" />
+  <meta property="og:title" content="Vietnamese Tax Accountant Melbourne | Alpha Taxlink Footscray" />
+  <meta property="og:description" content="Alpha Taxlink is Melbourne's trusted Vietnamese tax accountant and CPA firm in Footscray. Expert bilingual individual &amp; business tax returns, BAS, and advisory." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://alphataxlink.com.au/" />
   <meta property="og:locale" content="en_AU" />
   <meta property="og:image" content="https://alphataxlink.com.au/assets/og-image.jpg" />
-  <title>Accounting &amp; Tax Services Footscray Melbourne | Alpha Taxlink</title>
+  <title>Vietnamese Tax Accountant Melbourne | Alpha Taxlink Footscray</title>
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="icon" type="image/png" href="assets/favicon.png" />
   <link rel="canonical" href="https://alphataxlink.com.au/" />
@@ -20,17 +20,29 @@
   <link rel="alternate" hreflang="vi" href="https://alphataxlink.com.au/index-vi/" />
   <link rel="alternate" hreflang="x-default" href="https://alphataxlink.com.au/" />
 
-  <!-- Structured Data -->
+  <!-- Structured Data: FinancialService & Founder -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "FinancialService",
-    "name": "Alpha Taxlink",
+    "name": "Alpha Taxlink - Vietnamese Tax Accountant Melbourne",
+    "alternateName": ["Alpha Taxlink", "Dịch Vụ Kế Toán Thuế Alpha Taxlink"],
     "image": "https://alphataxlink.com.au/assets/logo.png",
     "@id": "https://alphataxlink.com.au/",
     "url": "https://alphataxlink.com.au/",
     "telephone": "(03) 9689 3908",
     "knowsLanguage": ["en", "vi"],
+    "description": "Leading Vietnamese tax accountant and CPA practice in Footscray, Melbourne. Offering bilingual taxation, BAS lodgement, bookkeeping, and business advisory services.",
+    "founder": {
+      "@type": "Person",
+      "name": "Tien Nguyen",
+      "jobTitle": "Principal CPA & Founder",
+      "honorificPrefix": "FCPA",
+      "image": "https://alphataxlink.com.au/assets/TienNguyen.jpg",
+      "description": "Fellow CPA (FCPA) and Registered Tax Agent with over 20 years of experience providing Australian taxation and business advisory services for English and Vietnamese speaking clients.",
+      "knowsLanguage": ["en", "vi"],
+      "sameAs": "https://au.linkedin.com/in/tien-nguyen-fcpa-68851a50"
+    },
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "105/29A Leeds Street",
@@ -71,11 +83,55 @@
   }
   </script>
 
+  <!-- Structured Data: Person (Tien Nguyen FCPA) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://alphataxlink.com.au/#tien-nguyen",
+    "name": "Tien Nguyen FCPA",
+    "givenName": "Tien",
+    "familyName": "Nguyen",
+    "jobTitle": "Principal CPA & Registered Tax Agent",
+    "image": "https://alphataxlink.com.au/assets/TienNguyen.jpg",
+    "worksFor": {
+      "@type": "FinancialService",
+      "name": "Alpha Taxlink"
+    },
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "degree",
+        "name": "Fellow Certified Practising Accountant (FCPA)"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "license",
+        "name": "Registered Tax Agent (Tax Practitioners Board)"
+      }
+    ],
+    "knowsLanguage": ["en", "vi"],
+    "sameAs": [
+      "https://au.linkedin.com/in/tien-nguyen-fcpa-68851a50",
+      "https://www.facebook.com/profile.php?id=100060847283374"
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: FAQPage -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why choose a Vietnamese tax accountant in Melbourne like Alpha Taxlink?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Alpha Taxlink offers fluent bilingual communication in English and Vietnamese (Tiếng Việt). Our FCPA qualified team explains complex ATO rules, helps you maximize legitimate deductions, sets up optimal business structures, and handles all ATO interactions with zero language barrier."
+        }
+      },
       {
         "@type": "Question",
         "name": "What documents do I need to prepare for my tax return?",
@@ -97,7 +153,7 @@
         "name": "Do you provide bilingual accounting services?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, our expert team provides professional, bilingual accounting and tax services in both English and Vietnamese, which is ideal for migrant investors and diverse business owners."
+          "text": "Yes, our expert team provides professional, bilingual accounting and tax services in both English and Vietnamese, which is ideal for migrant investors, small business owners, and individuals across Melbourne."
         }
       },
       {
@@ -137,6 +193,7 @@
       <div class="navbar__nav" role="menubar">
         <a href="/about/" class="navbar__link" role="menuitem" id="nav-about">About Us</a>
         <a href="#services" class="navbar__link" role="menuitem" id="nav-services">Services</a>
+        <a href="/vietnamese-tax-accountant-melbourne/" class="navbar__link" role="menuitem" id="nav-vietnamese" style="color: var(--gold-600); font-weight: 700;">Vietnamese Services</a>
         <a href="/career/" class="navbar__link" role="menuitem" id="nav-career">Career</a>
         <a href="/contact/" class="navbar__link" role="menuitem" id="nav-contact">Contact Us</a>
         <div class="navbar__lang" role="group" aria-label="Language selection">
@@ -157,6 +214,7 @@
   <div class="navbar__drawer" id="mobileDrawer" role="menu" aria-label="Mobile navigation">
     <a href="/about/" class="navbar__link" role="menuitem">About Us</a>
     <a href="#services" class="navbar__link" role="menuitem">Services</a>
+    <a href="/vietnamese-tax-accountant-melbourne/" class="navbar__link" role="menuitem" style="color: var(--gold-600); font-weight: 700;">Vietnamese Services</a>
     <a href="/career/" class="navbar__link" role="menuitem">Career</a>
     <a href="/contact/" class="navbar__link" role="menuitem">Contact Us</a>
     <div class="navbar__drawer-lang">
@@ -180,24 +238,22 @@
         <div class="hero__text">
           <div class="hero__badge">
             <span class="hero__badge-dot"></span>
-            Melbourne's Trusted Accounting Firm
+            Melbourne's Trusted Vietnamese Accounting Firm
           </div>
           <h1 class="hero__title" id="hero-title">
-            Expert Tax &amp;<br />
-            <span class="hero__title-accent">Accounting</span><br />
-            Services
+            Vietnamese Tax Accountant<br />
+            <span class="hero__title-accent">Melbourne</span><br />
+            — Alpha Taxlink
           </h1>
           <p class="hero__desc">
-            Proactive, energetic, and client-focused — Alpha Taxlink
-            delivers distinctive accounting and tax solutions for small
-            businesses, investors, and individuals across Australia.
+            Proactive, energetic, and client-focused — Alpha Taxlink is Melbourne's premier bilingual CPA accounting firm in Footscray. We deliver specialized tax returns, BAS lodgement, and business advisory services in English and Vietnamese across Australia.
           </p>
           <div class="hero__actions">
             <a href="/contact/" class="btn btn-primary" id="hero-cta-book">
               📅 Book a Consultation
             </a>
-            <a href="#services" class="btn btn-outline" id="hero-cta-services">
-              Explore Services →
+            <a href="/vietnamese-tax-accountant-melbourne/" class="btn btn-outline" id="hero-cta-services">
+              Bilingual Services →
             </a>
           </div>
           <div class="hero__stats">
@@ -207,8 +263,12 @@
               <div class="hero__stat-label">ATO Compliant</div>
             </div>
             <div class="hero__stat">
-              <div class="hero__stat-value">All</div>
-              <div class="hero__stat-label">Entity Types</div>
+              <div class="hero__stat-value">FCPA</div>
+              <div class="hero__stat-label">Qualified Principal</div>
+            </div>
+            <div class="hero__stat">
+              <div class="hero__stat-value">EN / VI</div>
+              <div class="hero__stat-label">Bilingual Team</div>
             </div>
           </div>
         </div>
@@ -216,21 +276,18 @@
         <div class="hero__cards" aria-label="Our service highlights">
           <div class="hero__card">
             <div class="hero__card-icon">🏢</div>
-            <div class="hero__card-title">Full-Service Firm</div>
-            <div class="hero__card-desc">From tax returns to business strategy — complete financial services under one
-              roof for individuals and businesses.</div>
+            <div class="hero__card-title">Full-Service CPA Firm</div>
+            <div class="hero__card-desc">From personal tax returns to company tax, trust accounting, and corporate advisory — complete financial services in Footscray.</div>
           </div>
           <div class="hero__card">
             <div class="hero__card-icon">🌏</div>
-            <div class="hero__card-title">Bilingual Support</div>
-            <div class="hero__card-desc">English &amp; Vietnamese speaking advisors ready to help migrant investors
-              navigate Australian tax.</div>
+            <div class="hero__card-title">Bilingual Vietnamese Support</div>
+            <div class="hero__card-desc">English &amp; Vietnamese speaking CPAs ready to help local business owners and migrant investors navigate Australian tax.</div>
           </div>
           <div class="hero__card">
             <div class="hero__card-icon">⚡</div>
-            <div class="hero__card-title">Proactive Advice</div>
-            <div class="hero__card-desc">We work ahead of tax time to identify planning opportunities and protect your
-              financial position.</div>
+            <div class="hero__card-title">Proactive Tax Planning</div>
+            <div class="hero__card-desc">We work ahead of tax time to maximize eligible tax refunds, structure entities efficiently, and protect your wealth legally.</div>
           </div>
         </div>
       </div>
@@ -433,6 +490,211 @@
       </div>
     </section>
 
+    <!-- ===== VIETNAMESE TAX ACCOUNTANT & BILINGUAL SERVICES SECTION ===== -->
+    <section class="section" id="vietnamese-tax-accountant" aria-labelledby="vietnamese-accountant-title" style="background: var(--white);">
+      <div class="container">
+        <div class="section-header section-header--center fade-up">
+          <div class="hero__badge" style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(212, 160, 23, 0.15); border: 1px solid rgba(212, 160, 23, 0.4); color: var(--gold-600); padding: 0.35rem 1rem; border-radius: var(--radius-full); font-size: 0.875rem; font-weight: 700; margin-bottom: 1rem;">
+            <span>🇻🇳</span> Dịch Vụ Kế Toán Thuế Tiếng Việt Tại Melbourne
+          </div>
+          <h2 class="section-title" id="vietnamese-accountant-title">
+            Vietnamese Tax Accountant Melbourne — Alpha Taxlink Footscray
+          </h2>
+          <p class="section-subtitle" style="max-width: 800px; margin: 0 auto;">
+            Empowering Vietnamese business owners, investors, and individuals across Victoria with CPA-qualified bilingual accounting, proactive tax planning, and ATO compliance.
+          </p>
+        </div>
+
+        <div style="max-width: 960px; margin: 2rem auto; font-size: 1.05rem; line-height: 1.85; color: var(--slate-700);">
+          <p style="margin-bottom: 1.25rem;">
+            Alpha Taxlink is a premier <strong>Vietnamese tax accountant in Melbourne</strong> located in Leeds Street, Footscray — the commercial and cultural heart of Melbourne's western Vietnamese community. Led by <strong>Tien Nguyen FCPA</strong> (Fellow Certified Practising Accountant and Registered Tax Agent), our bilingual accounting practice eliminates language barriers so you can manage your Australian tax obligations with confidence and precision.
+          </p>
+          <p style="margin-bottom: 1.25rem;">
+            We provide comprehensive accounting, individual tax returns, company tax structures (Pty Ltd), family trust distributions, Business Activity Statements (BAS), GST lodgements, and payroll compliance. Whether you operate a restaurant or café in Footscray, a retail store in Sunshine or Richmond, a construction trades subcontracting business, or require specialist accounting for Business Innovation &amp; Investment Visas (Subclass 188/888), our team delivers tailored strategies to minimize tax liabilities legally and safeguard your financial position.
+          </p>
+          <p>
+            With direct communication in both <strong>Vietnamese (Tiếng Việt)</strong> and English, we explain complex ATO rulings clearly, liaise directly with the Australian Taxation Office on audits or multi-year overdue lodgements, and help you build long-term sustainable wealth in Australia.
+          </p>
+        </div>
+
+        <!-- Highlights Grid -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin: 2.5rem 0;">
+          <div style="background: var(--navy-50); border: 1px solid var(--navy-100); border-radius: var(--radius-lg); padding: 1.5rem;">
+            <div style="font-size: 2rem; margin-bottom: 0.75rem;">🗣️</div>
+            <h3 style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 700; color: var(--navy-900); margin-bottom: 0.5rem;">100% Bilingual Support</h3>
+            <p style="font-size: 0.92rem; color: var(--slate-600); line-height: 1.6;">Direct consultation in Tiếng Việt and English. No miscommunication on complex tax legislation, tax deductions, or financial reports.</p>
+          </div>
+
+          <div style="background: var(--navy-50); border: 1px solid var(--navy-100); border-radius: var(--radius-lg); padding: 1.5rem;">
+            <div style="font-size: 2rem; margin-bottom: 0.75rem;">🧾</div>
+            <h3 style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 700; color: var(--navy-900); margin-bottom: 0.5rem;">Maximum Tax Deductions</h3>
+            <p style="font-size: 0.92rem; color: var(--slate-600); line-height: 1.6;">Legitimate tax deduction optimization for individual wages, rental property depreciation, motor vehicle expenses, and business write-offs.</p>
+          </div>
+
+          <div style="background: var(--navy-50); border: 1px solid var(--navy-100); border-radius: var(--radius-lg); padding: 1.5rem;">
+            <div style="font-size: 2rem; margin-bottom: 0.75rem;">🏢</div>
+            <h3 style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 700; color: var(--navy-900); margin-bottom: 0.5rem;">Business Setup &amp; Structuring</h3>
+            <p style="font-size: 0.92rem; color: var(--slate-600); line-height: 1.6;">Company registration (ASIC), Family Trusts, Sole Trader ABN/GST setup, Section 52 vendor statements, and business purchase advisory.</p>
+          </div>
+
+          <div style="background: var(--navy-50); border: 1px solid var(--navy-100); border-radius: var(--radius-lg); padding: 1.5rem;">
+            <div style="font-size: 2rem; margin-bottom: 0.75rem;">🛡️</div>
+            <h3 style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 700; color: var(--navy-900); margin-bottom: 0.5rem;">ATO Audit &amp; Overdue Fixes</h3>
+            <p style="font-size: 0.92rem; color: var(--slate-600); line-height: 1.6;">Liaising directly with the ATO to lodge late returns, request penalty remission, negotiate payment plans, and resolve ATO reviews.</p>
+          </div>
+        </div>
+
+        <!-- Principal Bio Box (E-E-A-T) -->
+        <div class="bio-card" style="margin: 3rem auto; max-width: 900px;">
+          <img src="assets/TienNguyen.jpg" alt="Tien Nguyen FCPA - Principal Accountant Alpha Taxlink" class="bio-card__avatar" />
+          <div>
+            <div style="display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.25rem;">
+              <h3 style="font-family: var(--font-heading); font-size: 1.35rem; font-weight: 800; color: var(--navy-900);">Tien Nguyen FCPA</h3>
+              <span style="background: rgba(212, 160, 23, 0.15); color: var(--gold-600); font-weight: 700; font-size: 0.8rem; padding: 0.2rem 0.6rem; border-radius: var(--radius-sm); border: 1px solid rgba(212, 160, 23, 0.3);">Fellow CPA &amp; Registered Tax Agent</span>
+            </div>
+            <p style="color: var(--slate-600); font-size: 0.95rem; line-height: 1.6; margin-bottom: 0.5rem;">
+              Principal and founder of Alpha Taxlink with over 20 years of experience assisting Vietnamese-Australian families, business owners, and international investors navigate Australian taxation, ASIC corporate law, and wealth accumulation strategies.
+            </p>
+            <div style="font-size: 0.85rem; color: var(--slate-500); display: flex; gap: 1.5rem; flex-wrap: wrap;">
+              <span>📍 105/29A Leeds St, Footscray VIC 3011</span>
+              <span>📞 <a href="tel:0396893908" style="color: var(--navy-600); font-weight: 600;">(03) 9689 3908</a></span>
+              <span>🌐 English &amp; Tiếng Việt</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Client Testimonials -->
+        <div style="margin-top: 3.5rem;">
+          <h3 style="font-family: var(--font-heading); font-size: 1.5rem; font-weight: 800; color: var(--navy-900); text-align: center; margin-bottom: 0.5rem;">
+            What Our Clients Say (Khách Hàng Nói Gì Về Chúng Tôi)
+          </h3>
+          <p style="text-align: center; color: var(--slate-500); font-size: 0.95rem; margin-bottom: 2rem;">
+            Real feedback from Vietnamese and Australian business owners across Melbourne
+          </p>
+
+          <div class="testimonials__slider-wrapper">
+            <div class="testimonials__slider-track" id="indexTestimonialTrack">
+              <!-- Review 1: Ausmigrations / Mrs. Nga -->
+              <div class="testimonial-card">
+                <div>
+                  <div class="testimonial-stars">★★★★★</div>
+                  <p class="testimonial-quote">
+                    "Ausmigrations has collaborated closely with Alpha Taxlink for years. Ms. Tien Nguyen FCPA delivers exceptional financial audits and accounting compliance reports for our business innovation and investment visa clients (Subclass 188/888). Highly trustworthy and thorough."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar">AM</div>
+                  <div class="testimonial-info">
+                    <h4>Mrs. Nga</h4>
+                    <p>Director &amp; Registered Migration Agent, <a href="https://ausmigrations.com.au/" target="_blank" rel="noopener noreferrer" style="color: var(--navy-600); text-decoration: underline;">Ausmigrations</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 2: Endoscope Services -->
+              <div class="testimonial-card">
+                <div>
+                  <div class="testimonial-stars">★★★★★</div>
+                  <p class="testimonial-quote">
+                    "Endoscope Services has relied on Alpha Taxlink for our medical equipment business accounting, asset depreciation schedules, and quarterly BAS. Ms. Tien's proactive tax planning and attention to detail give our management complete peace of mind."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar">ES</div>
+                  <div class="testimonial-info">
+                    <h4>Endoscope Services</h4>
+                    <p>Medical &amp; Technical Equipment, Melbourne</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 3: MelLink -->
+              <div class="testimonial-card">
+                <div>
+                  <div class="testimonial-stars">★★★★★</div>
+                  <p class="testimonial-quote">
+                    "As a Vietnamese migration agency in Melbourne, MelLink frequently refers clients to Alpha Taxlink for business structuring, financial compliance, and tax planning. Ms. Tien's deep expertise in ATO regulations and bilingual clarity make the entire visa accounting process seamless."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar">ML</div>
+                  <div class="testimonial-info">
+                    <h4><a href="https://mellink.net.au/" target="_blank" rel="noopener noreferrer" style="color: var(--navy-900); text-decoration: underline;">MelLink</a></h4>
+                    <p>Vietnamese Migration Agency, Melbourne</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 4: Hospitality -->
+              <div class="testimonial-card">
+                <div>
+                  <div class="testimonial-stars">★★★★★</div>
+                  <p class="testimonial-quote">
+                    "Alpha Taxlink has been managing our restaurant's quarterly BAS, Single Touch Payroll, and annual company tax return for over 4 years. Ms. Tien Nguyen and her team explain everything clearly in Vietnamese and always look out for our best interests."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar">MT</div>
+                  <div class="testimonial-info">
+                    <h4>Minh T.</h4>
+                    <p>Restaurant Owner, Footscray</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 5: Property Investor -->
+              <div class="testimonial-card">
+                <div>
+                  <div class="testimonial-stars">★★★★★</div>
+                  <p class="testimonial-quote">
+                    "As a property investor with multiple rental properties across Melbourne, finding an accountant who understands negative gearing and capital gains tax in detail was crucial. The bilingual service makes communication effortless."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar">LN</div>
+                  <div class="testimonial-info">
+                    <h4>Linh N.</h4>
+                    <p>Property Investor &amp; Consultant, Melbourne</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 6: Trade Contractor -->
+              <div class="testimonial-card">
+                <div>
+                  <div class="testimonial-stars">★★★★★</div>
+                  <p class="testimonial-quote">
+                    "Ms. Tien helped me set up my building trade company structure and register GST and WorkCover. When I had overdue tax returns from previous years, Alpha Taxlink negotiated directly with the ATO to waive penalties. Truly exceptional!"
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar">DH</div>
+                  <div class="testimonial-info">
+                    <h4>David H.</h4>
+                    <p>Director, Construction Services, Sunshine</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <div class="slider-controls">
+              <button class="slider-btn" id="indexSlidePrev" aria-label="Previous Review">‹</button>
+              <div class="slider-dots" id="indexSliderDots"></div>
+              <button class="slider-btn" id="indexSlideNext" aria-label="Next Review">›</button>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;">
+          <a href="/vietnamese-tax-accountant-melbourne/" class="btn btn-primary" style="padding: 0.85rem 2rem;">
+            Explore Dedicated Vietnamese Accounting Services →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
     <!-- ===== FAQ SECTION ===== -->
     <section class="section section-alt" id="faq" aria-labelledby="faq-title">
       <div class="container">
@@ -445,6 +707,16 @@
         </div>
 
         <div class="faq-container fade-up" style="max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 1rem;">
+          <details class="faq-item" style="background: var(--white); border: 1px solid var(--slate-200); border-radius: var(--radius-md); padding: var(--space-md) var(--space-lg); transition: all 250ms ease; cursor: pointer; outline: none;">
+            <summary class="faq-question" style="font-family: var(--font-heading); font-size: 1.1rem; font-weight: 700; color: var(--navy-900); list-style: none; display: flex; justify-content: space-between; align-items: center; outline: none;">
+              <span>Why choose a Vietnamese tax accountant in Melbourne like Alpha Taxlink?</span>
+              <span class="faq-icon" style="font-size: 0.9rem; transition: transform 250ms ease;">➕</span>
+            </summary>
+            <p class="faq-answer" style="color: var(--color-text-muted); line-height: 1.7; margin-top: var(--space-md); font-size: 0.95rem; cursor: default;">
+              Alpha Taxlink offers fluent bilingual communication in English and Vietnamese (Tiếng Việt). Our FCPA qualified team explains complex ATO rules, helps you maximize legitimate deductions, sets up optimal business structures, and handles all ATO interactions with zero language barrier.
+            </p>
+          </details>
+
           <details class="faq-item" style="background: var(--white); border: 1px solid var(--slate-200); border-radius: var(--radius-md); padding: var(--space-md) var(--space-lg); transition: all 250ms ease; cursor: pointer; outline: none;">
             <summary class="faq-question" style="font-family: var(--font-heading); font-size: 1.1rem; font-weight: 700; color: var(--navy-900); list-style: none; display: flex; justify-content: space-between; align-items: center; outline: none;">
               <span>What documents do I need to prepare for my tax return?</span>
@@ -471,7 +743,7 @@
               <span class="faq-icon" style="font-size: 0.9rem; transition: transform 250ms ease;">➕</span>
             </summary>
             <p class="faq-answer" style="color: var(--color-text-muted); line-height: 1.7; margin-top: var(--space-md); font-size: 0.95rem; cursor: default;">
-              Yes, our expert team provides professional, bilingual accounting and tax services in both English and Vietnamese, which is ideal for migrant investors and diverse business owners.
+              Yes, our expert team provides professional, bilingual accounting and tax services in both English and Vietnamese, which is ideal for migrant investors, small business owners, and individuals across Melbourne.
             </p>
           </details>
 
@@ -547,7 +819,8 @@
           <h3 class="footer__col-title">Navigation</h3>
           <nav class="footer__links" aria-label="Footer navigation">
             <a href="/about/">About Us</a>
-            <a href="/">Services</a>
+            <a href="/tax-returns/">Tax Returns</a>
+            <a href="/vietnamese-tax-accountant-melbourne/">Vietnamese Services</a>
             <a href="/career/">Career</a>
             <a href="/contact/">Contact Us</a>
           </nav>
@@ -556,10 +829,11 @@
         <div>
           <h3 class="footer__col-title">Services</h3>
           <nav class="footer__links" aria-label="Services navigation">
-            <a href="/#service-taxation">Taxation</a>
-            <a href="/#service-accounting">Accounting</a>
-            <a href="/#service-business">Business</a>
-            <a href="/#service-specialist">Specialist</a>
+            <a href="/tax-returns/">Taxation &amp; Returns</a>
+            <a href="/bas-lodgement/">BAS &amp; GST Lodgement</a>
+            <a href="/business-advisory/">Business Advisory</a>
+            <a href="/vietnamese-tax-accountant-melbourne/">Vietnamese Tax Accountant</a>
+            <a href="/#service-specialist">Specialist Services</a>
           </nav>
         </div>
 
@@ -633,6 +907,115 @@
     document.getElementById('scrollTop').addEventListener('click', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
+
+    // ========== TESTIMONIALS SLIDER ==========
+    (function initSlider() {
+      const track = document.getElementById('indexTestimonialTrack');
+      const prevBtn = document.getElementById('indexSlidePrev');
+      const nextBtn = document.getElementById('indexSlideNext');
+      const dotsContainer = document.getElementById('indexSliderDots');
+      if (!track) return;
+
+      const cards = track.querySelectorAll('.testimonial-card');
+      if (!cards.length) return;
+
+      let currentIndex = 0;
+      let autoSlideTimer = null;
+
+      if (dotsContainer) {
+        dotsContainer.innerHTML = '';
+        cards.forEach((_, i) => {
+          const dot = document.createElement('button');
+          dot.className = `slider-dot ${i === 0 ? 'active' : ''}`;
+          dot.setAttribute('aria-label', `Review ${i + 1}`);
+          dot.addEventListener('click', () => {
+            scrollToIndex(i);
+            restartAutoSlide();
+          });
+          dotsContainer.appendChild(dot);
+        });
+      }
+
+      function updateDots(index) {
+        if (!dotsContainer) return;
+        const dots = dotsContainer.querySelectorAll('.slider-dot');
+        dots.forEach((dot, i) => {
+          dot.classList.toggle('active', i === index);
+        });
+      }
+
+      function scrollToIndex(index) {
+        const maxScroll = track.scrollWidth - track.clientWidth;
+        if (index >= cards.length || (index > currentIndex && track.scrollLeft >= maxScroll - 10)) {
+          index = 0;
+        } else if (index < 0) {
+          index = cards.length - 1;
+        }
+        currentIndex = index;
+        const targetCard = cards[currentIndex];
+        track.scrollTo({
+          left: targetCard.offsetLeft - track.offsetLeft,
+          behavior: 'smooth'
+        });
+        updateDots(currentIndex);
+      }
+
+      if (prevBtn) {
+        prevBtn.addEventListener('click', () => {
+          scrollToIndex(currentIndex - 1);
+          restartAutoSlide();
+        });
+      }
+
+      if (nextBtn) {
+        nextBtn.addEventListener('click', () => {
+          scrollToIndex(currentIndex + 1);
+          restartAutoSlide();
+        });
+      }
+
+      let scrollTimeout;
+      track.addEventListener('scroll', () => {
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(() => {
+          const scrollPos = track.scrollLeft;
+          let closestIdx = 0;
+          let minDiff = Infinity;
+          cards.forEach((card, idx) => {
+            const diff = Math.abs((card.offsetLeft - track.offsetLeft) - scrollPos);
+            if (diff < minDiff) {
+              minDiff = diff;
+              closestIdx = idx;
+            }
+          });
+          currentIndex = closestIdx;
+          updateDots(currentIndex);
+        }, 50);
+      }, { passive: true });
+
+      function startAutoSlide() {
+        stopAutoSlide();
+        autoSlideTimer = setInterval(() => {
+          scrollToIndex(currentIndex + 1);
+        }, 3500);
+      }
+
+      function stopAutoSlide() {
+        if (autoSlideTimer) clearInterval(autoSlideTimer);
+      }
+
+      function restartAutoSlide() {
+        stopAutoSlide();
+        startAutoSlide();
+      }
+
+      track.addEventListener('mouseenter', stopAutoSlide);
+      track.addEventListener('mouseleave', startAutoSlide);
+      track.addEventListener('touchstart', stopAutoSlide, { passive: true });
+      track.addEventListener('touchend', restartAutoSlide, { passive: true });
+
+      startAutoSlide();
+    })();
 
     // ========== INTERSECTION OBSERVER (fade-up) ==========
     const observer = new IntersectionObserver((entries) => {

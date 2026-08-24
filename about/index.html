@@ -29,6 +29,15 @@
     "url": "https://alphataxlink.com.au/about/",
     "telephone": "(03) 9689 3908",
     "knowsLanguage": ["en", "vi"],
+    "founder": {
+      "@type": "Person",
+      "name": "Tien Nguyen",
+      "jobTitle": "Principal Accountant & Founder",
+      "honorificPrefix": "FCPA",
+      "description": "Fellow CPA (FCPA) and Registered Tax Agent with over 20 years of experience providing Australian taxation and business advisory services for English and Vietnamese speaking clients.",
+      "knowsLanguage": ["en", "vi"],
+      "sameAs": "https://au.linkedin.com/in/tien-nguyen-fcpa-68851a50"
+    },
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "105/29A Leeds Street",
@@ -68,6 +77,41 @@
     }
   }
   </script>
+
+  <!-- Structured Data: Person (Tien Nguyen FCPA) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://alphataxlink.com.au/#tien-nguyen",
+    "name": "Tien Nguyen FCPA",
+    "givenName": "Tien",
+    "familyName": "Nguyen",
+    "jobTitle": "Principal CPA & Registered Tax Agent",
+    "image": "https://alphataxlink.com.au/assets/TienNguyen.jpg",
+    "worksFor": {
+      "@type": "FinancialService",
+      "name": "Alpha Taxlink"
+    },
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "degree",
+        "name": "Fellow Certified Practising Accountant (FCPA)"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "license",
+        "name": "Registered Tax Agent (Tax Practitioners Board)"
+      }
+    ],
+    "knowsLanguage": ["en", "vi"],
+    "sameAs": [
+      "https://au.linkedin.com/in/tien-nguyen-fcpa-68851a50",
+      "https://www.facebook.com/profile.php?id=100060847283374"
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -84,7 +128,8 @@
 
       <div class="navbar__nav">
         <a href="/about/" class="navbar__link active" id="nav-about">About Us</a>
-        <a href="/" class="navbar__link" id="nav-services">Services</a>
+        <a href="/#services" class="navbar__link" id="nav-services">Services</a>
+        <a href="/vietnamese-tax-accountant-melbourne/" class="navbar__link" id="nav-vietnamese" style="color: var(--gold-600); font-weight: 700;">Vietnamese Services</a>
         <a href="/career/" class="navbar__link" id="nav-career">Career</a>
         <a href="/contact/" class="navbar__link" id="nav-contact">Contact Us</a>
         <div class="navbar__lang">
@@ -103,7 +148,8 @@
   <!-- Mobile Drawer -->
   <div class="navbar__drawer" id="mobileDrawer" role="menu">
     <a href="/about/" class="navbar__link active" role="menuitem">About Us</a>
-    <a href="/" class="navbar__link" role="menuitem">Services</a>
+    <a href="/#services" class="navbar__link" role="menuitem">Services</a>
+    <a href="/vietnamese-tax-accountant-melbourne/" class="navbar__link" role="menuitem" style="color: var(--gold-600); font-weight: 700;">Vietnamese Services</a>
     <a href="/career/" class="navbar__link" role="menuitem">Career</a>
     <a href="/contact/" class="navbar__link" role="menuitem">Contact Us</a>
     <div class="navbar__drawer-lang">
@@ -288,7 +334,8 @@
           <h3 class="footer__col-title">Navigation</h3>
           <nav class="footer__links">
             <a href="/about/">About Us</a>
-            <a href="/">Services</a>
+            <a href="/tax-returns/">Tax Returns</a>
+            <a href="/vietnamese-tax-accountant-melbourne/">Vietnamese Services</a>
             <a href="/career/">Career</a>
             <a href="/contact/">Contact Us</a>
           </nav>
@@ -296,10 +343,11 @@
         <div>
           <h3 class="footer__col-title">Services</h3>
           <nav class="footer__links">
-            <a href="/#service-taxation">Taxation</a>
-            <a href="/#service-accounting">Accounting</a>
-            <a href="/#service-business">Business</a>
-            <a href="/#service-specialist">Specialist</a>
+            <a href="/tax-returns/">Taxation &amp; Returns</a>
+            <a href="/bas-lodgement/">BAS &amp; GST Lodgement</a>
+            <a href="/business-advisory/">Business Advisory</a>
+            <a href="/vietnamese-tax-accountant-melbourne/">Vietnamese Tax Accountant</a>
+            <a href="/#service-specialist">Specialist Services</a>
           </nav>
         </div>
         <div>
