@@ -5,7 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Registered BAS Agent services in Footscray & Melbourne. BAS preparation, GST reconciliation, PAYG withholding & ATO compliance with extended agent deadlines." />
-  <meta name="keywords" content="BAS agent Footscray, BAS lodgement Melbourne, GST calculation, IAS statement, PAYG withholding, STP payroll, ATO compliance, Alpha Taxlink" />
   <meta property="og:title" content="BAS Agent Services &amp; GST Lodgement | Alpha Taxlink" />
   <meta property="og:description" content="Registered BAS Agent services in Footscray & Melbourne. BAS preparation, GST reconciliation, PAYG withholding & ATO compliance with extended agent deadlines." />
   <meta property="og:type" content="website" />
@@ -21,22 +20,40 @@
   <link rel="icon" type="image/png" href="../assets/favicon.png" />
   <link rel="canonical" href="https://alphataxlink.com.au/bas-lodgement/" />
   <link rel="alternate" hreflang="en" href="https://alphataxlink.com.au/bas-lodgement/" />
+  <link rel="alternate" hreflang="vi" href="https://alphataxlink.com.au/bao-cao-bas/" />
   <link rel="alternate" hreflang="x-default" href="https://alphataxlink.com.au/bas-lodgement/" />
+  <link rel="alternate" type="text/markdown" href="https://alphataxlink.com.au/llms.txt" title="LLM Summary" />
 
-  <!-- Structured Data -->
+  <!-- Structured Data: Service linked to Canonical Organization -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "FinancialService",
+    "@type": ["AccountingService", "FinancialService"],
+    "@id": "https://alphataxlink.com.au/bas-lodgement/#service",
     "name": "Alpha Taxlink - BAS & GST Lodgement Services",
+    "parentOrganization": {
+      "@id": "https://alphataxlink.com.au/#organization"
+    },
     "image": "https://alphataxlink.com.au/assets/logo.png",
-    "@id": "https://alphataxlink.com.au/bas-lodgement/",
     "url": "https://alphataxlink.com.au/bas-lodgement/",
     "telephone": "(03) 9689 3908",
     "knowsLanguage": ["en", "vi"],
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "license",
+        "name": "Registered Tax Agent & BAS Agent",
+        "recognizedBy": {
+          "@type": "GovernmentOrganization",
+          "name": "Tax Practitioners Board",
+          "sameAs": "https://www.tpb.gov.au/"
+        }
+      }
+    ],
     "sameAs": [
       "https://www.facebook.com/profile.php?id=100060847283374",
-      "https://au.linkedin.com/in/tien-nguyen-fcpa-68851a50"
+      "https://au.linkedin.com/in/tien-nguyen-fcpa-68851a50",
+      "https://maps.google.com/?q=Alpha+Taxlink+105/29A+Leeds+Street+Footscray+VIC+3011"
     ],
     "address": {
       "@type": "PostalAddress",
@@ -51,14 +68,7 @@
       "latitude": -37.8012,
       "longitude": 144.9015
     },
-    "areaServed": ["Footscray", "Melbourne", "Victoria", "Australia"],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "128",
-      "bestRating": "5",
-      "worstRating": "1"
-    }
+    "areaServed": ["Footscray", "Melbourne", "Victoria", "Australia"]
   }
   </script>
 
@@ -119,13 +129,33 @@
 
       <div class="navbar__nav" role="menubar">
         <a href="/about/" class="navbar__link" role="menuitem">About Us</a>
-        <a href="/#services" class="navbar__link active" role="menuitem">Services</a>
+        <div class="navbar__dropdown">
+          <a href="/#services" class="navbar__link navbar__dropdown-toggle active" id="nav-services" aria-haspopup="true" aria-expanded="false">Services</a>
+          <div class="navbar__dropdown-menu" role="menu" aria-label="Services submenu">
+            <a href="/tax-returns/" class="navbar__dropdown-item" role="menuitem">
+              <strong>Tax Returns</strong>
+              <span class="item-desc">Individual, Sole Trader, Company &amp; SMSF</span>
+            </a>
+            <a href="/bas-lodgement/" class="navbar__dropdown-item active" role="menuitem">
+              <strong>BAS &amp; GST Lodgement</strong>
+              <span class="item-desc">ATO compliance &amp; 4-week agent extension</span>
+            </a>
+            <a href="/business-advisory/" class="navbar__dropdown-item" role="menuitem">
+              <strong>Business Advisory</strong>
+              <span class="item-desc">Company setup, structure &amp; tax planning</span>
+            </a>
+            <a href="/vietnamese-tax-accountant-melbourne/" class="navbar__dropdown-item" role="menuitem" style="color: var(--gold-600); font-weight: 600;">
+              <strong>Vietnamese Services 🇻🇳</strong>
+              <span class="item-desc">Dịch vụ kế toán &amp; thuế song ngữ</span>
+            </a>
+          </div>
+        </div>
         <a href="/vietnamese-tax-accountant-melbourne/" class="navbar__link" role="menuitem" style="color: var(--gold-600); font-weight: 700;">Vietnamese Services</a>
         <a href="/career/" class="navbar__link" role="menuitem">Career</a>
         <a href="/contact/" class="navbar__link" role="menuitem">Contact Us</a>
         <div class="navbar__lang" role="group" aria-label="Language selection">
           <a href="/bas-lodgement/" class="navbar__lang-btn active" aria-pressed="true">EN</a>
-          <a href="/index-vi/" class="navbar__lang-btn" aria-pressed="false">VI</a>
+          <a href="/bao-cao-bas/" class="navbar__lang-btn" aria-pressed="false">VI</a>
         </div>
         <a href="/contact/" class="navbar__link navbar__cta">Book Consultation</a>
       </div>
@@ -140,12 +170,18 @@
   <div class="navbar__drawer" id="mobileDrawer" role="menu" aria-label="Mobile navigation">
     <a href="/about/" class="navbar__link" role="menuitem">About Us</a>
     <a href="/#services" class="navbar__link active" role="menuitem">Services</a>
+    <div class="navbar__drawer-sublinks">
+      <a href="/tax-returns/" class="navbar__drawer-sublink">Tax Returns</a>
+      <a href="/bas-lodgement/" class="navbar__drawer-sublink" style="color: var(--navy-600); font-weight: 600;">BAS &amp; GST Lodgement</a>
+      <a href="/business-advisory/" class="navbar__drawer-sublink">Business Advisory</a>
+      <a href="/vietnamese-tax-accountant-melbourne/" class="navbar__drawer-sublink" style="color: var(--gold-600); font-weight: 600;">Vietnamese Services 🇻🇳</a>
+    </div>
     <a href="/vietnamese-tax-accountant-melbourne/" class="navbar__link" role="menuitem" style="color: var(--gold-600); font-weight: 700;">Vietnamese Services</a>
     <a href="/career/" class="navbar__link" role="menuitem">Career</a>
     <a href="/contact/" class="navbar__link" role="menuitem">Contact Us</a>
     <div class="navbar__drawer-lang">
       <a href="/bas-lodgement/" class="navbar__lang-btn active">EN</a>
-      <a href="/index-vi/" class="navbar__lang-btn">VI</a>
+      <a href="/bao-cao-bas/" class="navbar__lang-btn">VI</a>
     </div>
     <a href="/contact/" class="navbar__link navbar__drawer-cta" role="menuitem">Book Consultation</a>
   </div>
@@ -380,12 +416,21 @@
           <p style="font-size: 0.9rem; line-height: 1.6;">
             📍 105/29A Leeds Street, Footscray VIC 3011<br />
             📞 (03) 9689 3908<br />
+            📱 0422 312 758<br />
             🌐 alphataxlink.com.au
           </p>
+          <div style="margin-top: 1rem;">
+            <a href="https://maps.google.com/?q=Alpha+Taxlink+105/29A+Leeds+Street+Footscray+VIC+3011" target="_blank" rel="noopener noreferrer" class="btn-map">
+              📍 Find us on Google Maps
+            </a>
+          </div>
         </div>
       </div>
       <div style="text-align: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 1.5rem; font-size: 0.85rem;">
-        &copy; 2026 Alpha Taxlink. All rights reserved. Registered Tax Agent.
+        Alpha Taxlink | Registered Tax Agent No. 26009385 | CPA Practice | ABN: 56 636 921 296
+      </div>
+      <div style="text-align: center; padding-top: 0.35rem; font-size: 0.8rem; color: var(--slate-500);">
+        &copy; 2026 Alpha Taxlink Pty Ltd. All rights reserved.
       </div>
     </div>
   </footer>

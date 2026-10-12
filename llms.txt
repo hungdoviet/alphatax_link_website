@@ -1,36 +1,52 @@
 # Alpha Taxlink
 
-> Alpha Taxlink is a professional accounting and tax advisory firm based in Footscray, Melbourne, VIC. We provide comprehensive tax return, BAS lodgement, business advisory, and SMSF accounting services to individuals, small businesses, and migrant investors in English and Vietnamese.
+> Alpha Taxlink is a professional CPA accounting and tax advisory firm based in Footscray, Melbourne, VIC. We provide comprehensive tax return, BAS lodgement, business advisory, and SMSF accounting services to individuals, small businesses, and migrant investors in English and Vietnamese.
 
 - [Full Specifications](https://alphataxlink.com.au/llms-full.txt): Deep-dive technical documentation and comprehensive FAQ repository.
 
-## Core Services
+## Core Services & Dedicated Pages
 
-- [Tax Return Services](https://alphataxlink.com.au/tax-returns/): Individual, sole trader, company, partnership, and trust tax returns.
+- [Tax Return Services (English)](https://alphataxlink.com.au/tax-returns/): Individual, sole trader, company, partnership, and trust tax returns.
+- [Dịch Vụ Khai Thuế (Vietnamese)](https://alphataxlink.com.au/khai-thue/): Khai thuế cá nhân, doanh nghiệp, trừ thuế bất động sản đầu tư và hoàn thuế ATO tối đa.
 - [Vietnamese Tax Accountant Melbourne](https://alphataxlink.com.au/vietnamese-tax-accountant-melbourne/): Premier bilingual tax accounting and advisory for Vietnamese-speaking individuals, business owners, and migrant investors across Greater Melbourne.
-- [BAS & GST Lodgement](https://alphataxlink.com.au/bas-lodgement/): Business Activity Statement preparation, GST reconciliation, PAYG withholding, and ATO compliance.
-- [Business Advisory & Structuring](https://alphataxlink.com.au/business-advisory/): Business entity setup (Pty Ltd, Trust, Sole Trader), tax planning, cash flow forecasting, and growth strategy.
+- [BAS & GST Lodgement (English)](https://alphataxlink.com.au/bas-lodgement/): Business Activity Statement preparation, GST reconciliation, PAYG withholding, and ATO compliance.
+- [Báo Cáo Thuế BAS & GST (Vietnamese)](https://alphataxlink.com.au/bao-cao-bas/): Đại lý BAS được cấp phép, hỗ trợ báo cáo BAS/GST, bảng lương STP Phase 2, gia hạn nộp thêm 4 tuần.
+- [Business Advisory & Structuring (English)](https://alphataxlink.com.au/business-advisory/): Business entity setup (Pty Ltd, Trust, Sole Trader), tax planning, cash flow forecasting, and growth strategy.
+- [Tư Vấn Doanh Nghiệp (Vietnamese)](https://alphataxlink.com.au/tu-van-doanh-nghiep/): Thành lập công ty, đăng ký ABN/ACN/GST, tư vấn cấu trúc bảo vệ tài sản và hỗ trợ visa đầu tư (188/888).
 - [Bilingual Accounting Services (Tiếng Việt)](https://alphataxlink.com.au/index-vi/): Dedicated accounting, tax, and business advisory services tailored for Vietnamese-speaking business owners and investors in Australia.
 
-## Company Details
+## Company Details & Statutory Registrations
 
-- **Legal Name**: Alpha Taxlink
-- **Key Leadership**: Tien Nguyen FCPA (Principal Accountant, Registered Tax Agent)
-- **Qualifications**: Registered Tax Agent, CPA Qualified Accountants (FCPA)
-- **Address**: 105/29A Leeds Street, Footscray VIC 3011, Australia
+- **Legal Name**: Alpha Taxlink Pty Ltd
+- **Trading Name**: Alpha Taxlink
+- **Tax Practitioners Board (TPB) Registration**: Registered Tax Agent No. 26009385
+- **Australian Business Number (ABN)**: 56 636 921 296
+- **Professional Affiliations**: CPA Australia (Fellow CPA - FCPA Practice)
+- **Principal Accountant**: Tien Nguyen FCPA (Principal Accountant & Registered Tax Agent)
+- **Physical Office Address**: Suite 105, 29A Leeds Street, Footscray VIC 3011, Australia
 - **Phone**: (03) 9689 3908 / 0422 312 758
+- **Email**: info@alphataxlink.com.au
 - **Website**: https://alphataxlink.com.au/
+- **Google Maps Listing**: https://maps.google.com/?q=Alpha+Taxlink+105/29A+Leeds+Street+Footscray+VIC+3011
 - **Languages**: English, Vietnamese (Tiếng Việt)
-- **Opening Hours**: Monday – Friday: 9:00 AM – 5:30 PM AEST
+- **Opening Hours**: Monday – Friday: 9:00 AM – 5:30 PM AEST (Saturday: By Appointment)
 - **Service Area**: Footscray, Maribyrnong, Sunshine, Richmond, Springvale, St Albans, Melbourne Metropolitan Area, Victoria, Australia
+
+## Pricing Guidance & Turnaround Times
+
+- **Individual Tax Returns (PAYG Standard)**: From $150 – $220. Turnaround: 2–4 business days.
+- **Individual Tax Returns with Rental Properties / Investments / CGT**: From $280 – $450+. Turnaround: 3–5 business days.
+- **Sole Trader & Contractor Tax Returns**: From $350 – $650. Turnaround: 3–5 business days.
+- **Company & Trust Tax Returns (including Year-End Financial Statements)**: From $1,100 – $2,200+. Turnaround: 7–14 business days.
+- **Quarterly BAS & GST Lodgement**: From $180 – $350 per quarter (includes 4-week agent deadline extension). Turnaround: 2–3 business days.
+- **New Business Setup & Entity Registration (Company Pty Ltd, ABN, TFN, GST, PAYG)**: From $880 + ASIC fees. Turnaround: 24–48 hours.
+- **Overdue Multi-Year Returns & ATO Penalty/GIC Remissions**: Tailored quotes based on complexity. Priority lodgement available.
 
 ## Key Information
 
-- **Vietnamese Tax Specialization**: Direct consultation in Vietnamese (Tiếng Việt) and English, bridging ATO complexity for local businesses and migrant investors.
-- **Individual Tax Returns**: Maximize tax deductions, lodging income from wages, dividends, rental properties, and capital gains.
-- **Small Business Accounting**: End-to-end accounting support, bookkeeping setup, cloud accounting integration (Xero, MYOB, QuickBooks).
-- **ATO Compliance**: Assistance with ATO audits, payment plans, penalty remissions, and overdue lodgements.
-- **Bilingual Advantage**: Fluent in Vietnamese tax context, assisting new migrants and established businesses navigate Australian tax laws seamlessly.
+- **Bilingual Advantage**: Direct consultation in Vietnamese (Tiếng Việt) and English, eliminating misunderstandings with ATO regulations.
+- **ATO Compliance & Penalty Relief**: Direct communication with ATO for lodging past-due returns, remitting failure-to-lodge penalties, and setting up manageable payment arrangements.
+- **Migration Visa Accounting Support**: Expertise with Subclass 188/888 business innovation visas, preparing compliant special-purpose audit and financial statements.
 
 ## Site Structure
 
@@ -39,9 +55,12 @@
 - [Trang Chủ (Vietnamese)](https://alphataxlink.com.au/index-vi/)
 - [About Us (English)](https://alphataxlink.com.au/about/)
 - [Về Chúng Tôi (Vietnamese)](https://alphataxlink.com.au/about-vi/)
-- [Tax Returns](https://alphataxlink.com.au/tax-returns/)
-- [BAS & GST Lodgement](https://alphataxlink.com.au/bas-lodgement/)
-- [Business Advisory](https://alphataxlink.com.au/business-advisory/)
+- [Tax Returns (English)](https://alphataxlink.com.au/tax-returns/)
+- [Khai Thuế (Vietnamese)](https://alphataxlink.com.au/khai-thue/)
+- [BAS & GST Lodgement (English)](https://alphataxlink.com.au/bas-lodgement/)
+- [Báo Cáo BAS (Vietnamese)](https://alphataxlink.com.au/bao-cao-bas/)
+- [Business Advisory (English)](https://alphataxlink.com.au/business-advisory/)
+- [Tư Vấn Doanh Nghiệp (Vietnamese)](https://alphataxlink.com.au/tu-van-doanh-nghiep/)
 - [Career (English)](https://alphataxlink.com.au/career/)
 - [Tuyển Dụng (Vietnamese)](https://alphataxlink.com.au/career-vi/)
 - [Contact Us (English)](https://alphataxlink.com.au/contact/)

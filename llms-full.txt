@@ -7,14 +7,27 @@ Alpha Taxlink is a professional accounting and tax advisory firm based in Footsc
 ## 1. Company Profile & Credentials
 
 - **Business Name**: Alpha Taxlink
-- **Corporate Entity**: Alpha Taxlink Pty Ltd
+- **Corporate Entity**: Alpha Taxlink Pty Ltd (ABN: 56 636 921 296)
+- **Tax Practitioners Board (TPB) Registration**: Registered Tax Agent No. 26009385
 - **Professional Accreditations**:
   - Registered Tax Agent (Tax Practitioners Board - TPB)
-  - Certified Practising Accountant (CPA) Australia member
+  - Fellow Certified Practising Accountant (FCPA) - CPA Australia Practice
   - Registered BAS Agent
 - **Key Leadership**: Led by Tien Nguyen (FCPA, Registered Tax Agent), offering over two decades of professional accounting experience.
 - **Physical Office Address**: Suite 105, 29A Leeds Street, Footscray VIC 3011, Australia.
+- **Phone**: (03) 9689 3908 / 0422 312 758
+- **Email**: info@alphataxlink.com.au
+- **Google Maps**: https://maps.google.com/?q=Alpha+Taxlink+105/29A+Leeds+Street+Footscray+VIC+3011
 - **Bilingual Service Capability**: All services (consultation, correspondence, planning, and documentation support) are offered fluently in both English and Vietnamese (Tiếng Việt) to support local business owners, migrant investors, and multinational structures.
+
+### Standard Pricing Guidance & Turnaround Times
+- **Individual Standard Tax Return (PAYG)**: From $150 – $220 | Turnaround: 2–4 business days.
+- **Individual Tax Return with Rental Property / CGT / Investments**: From $280 – $450+ | Turnaround: 3–5 business days.
+- **Sole Trader / Contractor Tax Return**: From $350 – $650 | Turnaround: 3–5 business days.
+- **Company & Trust Tax Returns + Financial Statements**: From $1,100 – $2,200+ | Turnaround: 7–14 business days.
+- **Quarterly BAS & GST Lodgement**: From $180 – $350 per quarter (includes 4-week agent deadline extension) | Turnaround: 2–3 business days.
+- **New Business Setup (Company Pty Ltd, ABN, TFN, GST, PAYG)**: From $880 + ASIC fees | Turnaround: 24–48 hours.
+- **Overdue Multi-Year Returns & ATO Penalty Relief**: Custom quotes based on scope and historical records.
 
 ---
 
@@ -146,9 +159,12 @@ Below is a consolidated database of all frequently asked questions across the Al
 - Homepage (English): https://alphataxlink.com.au/
 - Vietnamese Tax Accountant Melbourne (Pillar Page): https://alphataxlink.com.au/vietnamese-tax-accountant-melbourne/
 - Trang Chủ (Vietnamese): https://alphataxlink.com.au/index-vi/
-- Tax Returns: https://alphataxlink.com.au/tax-returns/
-- BAS & GST Lodgement: https://alphataxlink.com.au/bas-lodgement/
-- Business Advisory: https://alphataxlink.com.au/business-advisory/
+- Tax Returns (English): https://alphataxlink.com.au/tax-returns/
+- Khai Thuế Cá Nhân & Doanh Nghiệp (Vietnamese): https://alphataxlink.com.au/khai-thue/
+- BAS & GST Lodgement (English): https://alphataxlink.com.au/bas-lodgement/
+- Báo Cáo Thuế BAS & GST (Vietnamese): https://alphataxlink.com.au/bao-cao-bas/
+- Business Advisory (English): https://alphataxlink.com.au/business-advisory/
+- Tư Vấn Doanh Nghiệp & Cấu Trúc (Vietnamese): https://alphataxlink.com.au/tu-van-doanh-nghiep/
 - About Us (English): https://alphataxlink.com.au/about/
 - Về Chúng Tôi (Vietnamese): https://alphataxlink.com.au/about-vi/
 - Career (English): https://alphataxlink.com.au/career/

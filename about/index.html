@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="../assets/styles.css" />
   <link rel="icon" type="image/png" href="../assets/favicon.png" />
   <link rel="canonical" href="https://alphataxlink.com.au/about/" />
+  <link rel="alternate" type="text/markdown" href="https://alphataxlink.com.au/llms.txt" title="LLM Summary" />
   <link rel="alternate" hreflang="en" href="https://alphataxlink.com.au/about/" />
   <link rel="alternate" hreflang="vi" href="https://alphataxlink.com.au/about-vi/" />
   <link rel="alternate" hreflang="x-default" href="https://alphataxlink.com.au/about/" />
@@ -26,22 +27,47 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "FinancialService",
+    "@type": ["AccountingService", "FinancialService"],
     "name": "Alpha Taxlink",
     "image": "https://alphataxlink.com.au/assets/logo.png",
-    "@id": "https://alphataxlink.com.au/about/",
-    "url": "https://alphataxlink.com.au/about/",
+    "@id": "https://alphataxlink.com.au/#organization",
+    "url": "https://alphataxlink.com.au/",
     "telephone": "(03) 9689 3908",
+    "priceRange": "$$",
     "knowsLanguage": ["en", "vi"],
+    "taxID": "56 636 921 296",
     "founder": {
       "@type": "Person",
+      "@id": "https://alphataxlink.com.au/#tien-nguyen",
       "name": "Tien Nguyen",
       "jobTitle": "Principal Accountant & Founder",
       "honorificPrefix": "FCPA",
-      "description": "Fellow CPA (FCPA) and Registered Tax Agent with over 20 years of experience providing Australian taxation and business advisory services for English and Vietnamese speaking clients.",
+      "description": "Fellow CPA (FCPA) and Registered Tax Agent No. 26009385 with over 20 years of experience providing Australian taxation and business advisory services for English and Vietnamese speaking clients.",
       "knowsLanguage": ["en", "vi"],
       "sameAs": "https://au.linkedin.com/in/tien-nguyen-fcpa-68851a50"
     },
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "license",
+        "name": "Registered Tax Agent",
+        "recognizedBy": {
+          "@type": "GovernmentOrganization",
+          "name": "Tax Practitioners Board",
+          "sameAs": "https://www.tpb.gov.au/"
+        }
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "certification",
+        "name": "Fellow Certified Practising Accountant (FCPA)",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "CPA Australia",
+          "sameAs": "https://www.cpaaustralia.com.au/"
+        }
+      }
+    ],
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "105/29A Leeds Street",
@@ -71,14 +97,7 @@
       "https://www.facebook.com/profile.php?id=100060847283374",
       "https://au.linkedin.com/in/tien-nguyen-fcpa-68851a50"
     ],
-    "areaServed": ["Footscray", "Melbourne", "Victoria", "Australia"],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "128",
-      "bestRating": "5",
-      "worstRating": "1"
-    }
+    "areaServed": ["Footscray", "Melbourne", "Victoria", "Australia"]
   }
   </script>
 
@@ -94,19 +113,30 @@
     "jobTitle": "Principal CPA & Registered Tax Agent",
     "image": "https://alphataxlink.com.au/assets/TienNguyen.jpg",
     "worksFor": {
-      "@type": "FinancialService",
+      "@type": ["AccountingService", "FinancialService"],
+      "@id": "https://alphataxlink.com.au/#organization",
       "name": "Alpha Taxlink"
     },
     "hasCredential": [
       {
         "@type": "EducationalOccupationalCredential",
-        "credentialCategory": "degree",
-        "name": "Fellow Certified Practising Accountant (FCPA)"
+        "credentialCategory": "certification",
+        "name": "Fellow Certified Practising Accountant (FCPA)",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "CPA Australia",
+          "sameAs": "https://www.cpaaustralia.com.au/"
+        }
       },
       {
         "@type": "EducationalOccupationalCredential",
         "credentialCategory": "license",
-        "name": "Registered Tax Agent (Tax Practitioners Board)"
+        "name": "Registered Tax Agent (Tax Practitioners Board No. 26009385)",
+        "recognizedBy": {
+          "@type": "GovernmentOrganization",
+          "name": "Tax Practitioners Board",
+          "sameAs": "https://www.tpb.gov.au/"
+        }
       }
     ],
     "knowsLanguage": ["en", "vi"],
@@ -132,7 +162,29 @@
 
       <div class="navbar__nav">
         <a href="/about/" class="navbar__link active" id="nav-about">About Us</a>
-        <a href="/#services" class="navbar__link" id="nav-services">Services</a>
+        <div class="navbar__dropdown">
+          <a href="/#services" class="navbar__link navbar__dropdown-toggle" id="nav-services" aria-haspopup="true" aria-expanded="false">
+            Services <span class="navbar__dropdown-arrow">▾</span>
+          </a>
+          <div class="navbar__dropdown-menu" role="menu" aria-labelledby="nav-services">
+            <a href="/tax-returns/" class="navbar__dropdown-item" role="menuitem">
+              <strong>Tax Returns &amp; Compliance</strong>
+              <span class="item-desc">Individual, Sole Trader, Company &amp; SMSF</span>
+            </a>
+            <a href="/bas-lodgement/" class="navbar__dropdown-item" role="menuitem">
+              <strong>BAS &amp; GST Lodgement</strong>
+              <span class="item-desc">Registered Tax Agent with 4-week ATO extension</span>
+            </a>
+            <a href="/business-advisory/" class="navbar__dropdown-item" role="menuitem">
+              <strong>Business Advisory &amp; Structuring</strong>
+              <span class="item-desc">Company setup, trust &amp; immigration visa support</span>
+            </a>
+            <a href="/vietnamese-tax-accountant-melbourne/" class="navbar__dropdown-item" role="menuitem" style="color: var(--gold-600); font-weight: 600;">
+              <strong>Vietnamese Tax Accountant 🇻🇳</strong>
+              <span class="item-desc">Kế toán người Việt tại Melbourne</span>
+            </a>
+          </div>
+        </div>
         <a href="/vietnamese-tax-accountant-melbourne/" class="navbar__link" id="nav-vietnamese" style="color: var(--gold-600); font-weight: 700;">Vietnamese Services</a>
         <a href="/career/" class="navbar__link" id="nav-career">Career</a>
         <a href="/contact/" class="navbar__link" id="nav-contact">Contact Us</a>
@@ -153,6 +205,12 @@
   <div class="navbar__drawer" id="mobileDrawer" role="menu">
     <a href="/about/" class="navbar__link active" role="menuitem">About Us</a>
     <a href="/#services" class="navbar__link" role="menuitem">Services</a>
+    <div class="navbar__drawer-sublinks">
+      <a href="/tax-returns/" class="navbar__drawer-sublink">Tax Returns</a>
+      <a href="/bas-lodgement/" class="navbar__drawer-sublink">BAS &amp; GST</a>
+      <a href="/business-advisory/" class="navbar__drawer-sublink">Business Advisory</a>
+      <a href="/vietnamese-tax-accountant-melbourne/" class="navbar__drawer-sublink" style="color: var(--gold-600); font-weight: 600;">Vietnamese Services 🇻🇳</a>
+    </div>
     <a href="/vietnamese-tax-accountant-melbourne/" class="navbar__link" role="menuitem" style="color: var(--gold-600); font-weight: 700;">Vietnamese Services</a>
     <a href="/career/" class="navbar__link" role="menuitem">Career</a>
     <a href="/contact/" class="navbar__link" role="menuitem">Contact Us</a>
@@ -170,7 +228,7 @@
       <div class="container">
         <div class="page-hero__content">
           <p class="page-hero__label">Who We Are</p>
-          <h1 class="page-hero__title" id="about-hero-title">About Us</h1>
+          <h1 class="page-hero__title" id="about-hero-title">About Alpha Taxlink — Melbourne CPA Accounting Specialists</h1>
           <p class="page-hero__desc">
             A proactive and energetic Melbourne accounting firm serving
             clients across Australia and internationally.
@@ -372,13 +430,23 @@
             <span>✉️</span>
             <span><a href="mailto:info@alphataxlink.com.au">info@alphataxlink.com.au</a></span>
           </div>
+          <div style="margin-top: 1rem;">
+            <a href="https://maps.google.com/?q=Alpha+Taxlink+105/29A+Leeds+Street+Footscray+VIC+3011" target="_blank" rel="noopener noreferrer" class="btn-map">
+              📍 Find us on Google Maps
+            </a>
+          </div>
         </div>
       </div>
     </div>
     <hr class="footer__divider" />
     <div class="container">
       <div class="footer__bottom">
-        <p class="footer__bottom-copy">&copy; 2026 Alpha Taxlink Pty Ltd. All rights reserved. ABN: 56 636 921 296.</p>
+        <p class="footer__bottom-copy">
+          Alpha Taxlink | Registered Tax Agent No. 26009385 | CPA Practice | ABN: 56 636 921 296
+        </p>
+        <p class="footer__bottom-copy" style="margin-top: 0.25rem; font-size: 0.8rem; color: var(--slate-400);">
+          &copy; 2026 Alpha Taxlink Pty Ltd. All rights reserved.
+        </p>
         <div class="footer__bottom-links">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Use</a>
